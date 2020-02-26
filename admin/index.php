@@ -66,7 +66,7 @@
         <a href="#">Quên mật khẩu</a>
       </p>
       <p class="mb-0">
-        <a href="./src/components/register.php" class="text-center">Tôi chưa có tài khoản!</a>
+        <a href="src/components/register.php" class="text-center">Tôi chưa có tài khoản!</a>
       </p>
     </div>
     <!-- /.login-card-body -->
