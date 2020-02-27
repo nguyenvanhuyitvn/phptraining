@@ -50,6 +50,6 @@ $admin = $_SESSION['admin_login'];
       </li>
     </ul>
     <ul class="nav navbar-nav justify-content-end">
-      <li class="pr-2"><a href="#"><i class="fas fa-sign-in-alt ml-3 pr-2"></i> Logout</a></li>
+      <li class="pr-2"><a href="logout.php"><i class="fas fa-sign-in-alt ml-3 pr-2"></i> Logout</a></li>
     </ul>
   </nav>

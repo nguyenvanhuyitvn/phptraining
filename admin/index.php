@@ -4,7 +4,7 @@ require_once('common/header.php');
 require_once('common/left-menu.php');
 
 $m = !empty($_GET['m']) ? $_GET['m'] : 'site';
-  $a = !empty($_GET['a']) ? $_GET['a'] : 'index';
+  $a = !empty($_GET['a']) ? $_GET['a'] : 'list';
 
   $file = __DIR__.'/modules/'.$m.'/'.$a.'.php';
 

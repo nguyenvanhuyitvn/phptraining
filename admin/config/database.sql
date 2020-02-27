@@ -10,13 +10,13 @@ CREATE TABLE account(
 		address varchar(255) NOT NULL,
 		password varchar(50) NOT NULL,
 		level tinyint NULL DEFAULT '0'
-)
+);
 
 CREATE TABLE category(
 		id int PRIMARY KEY AUTO_INCREMENT,
 		name varchar(255) NOT NULL UNIQUE,
 		status tinyint NULL DEFAULT '0'
-)
+);
 
 CREATE TABLE product
 (
@@ -28,7 +28,7 @@ CREATE TABLE product
 	content text NULL,
 	category_id int NOT NULL,
 	FOREIGN KEY (category_id) REFERENCES category(id)
-)
+);
 
 
 
