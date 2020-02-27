@@ -1,7 +1,0 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -l [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteBase /
-RewriteRule ^src/admin.php(.*)$ http://localhost:2323/phptraining/admin/$1 [R=301,L]
-
