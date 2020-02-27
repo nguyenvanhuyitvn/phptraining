@@ -2,6 +2,6 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -l [OR]
 RewriteCond %{REQUEST_FILENAME} -d
-RewriteBase /phptraining/admin/
-RewriteRule ^src/components/(.+)$ http://localhost/$1 [R=301,L]
+RewriteBase /
+RewriteRule ^src/admin.php(.*)$ http://localhost:2323/phptraining/admin/$1 [R=301,L]
 
